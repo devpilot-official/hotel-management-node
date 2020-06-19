@@ -1,4 +1,3 @@
-import 'dotenv/config';
 import { Module } from '@nestjs/common';
 import { MongooseModule } from '@nestjs/mongoose';
 import { AuthModule } from './auth/auth.module';
@@ -12,7 +11,7 @@ import env from './config/env';
       useNewUrlParser: true,
       useCreateIndex: true,
       useFindAndModify: false,
-  }),
+    }),
     AuthModule,
   ],
 })
