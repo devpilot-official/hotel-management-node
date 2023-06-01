@@ -28,7 +28,7 @@
     "@nestjs/platform-express": "^6.7.2",
     "bcrypt": "^5.0.0",
     "bunyan": "^1.8.12",
-    "dotenv": "^8.2.0",
+    "dotenv": "^8.6.0",
     "http-status-codes": "^1.4.0",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.9.18",
